@@ -19,3 +19,16 @@ randomLetter ();
 function myGuy (chill) {
     console.log (chill + ", my guy.")
 }
+
+myGuy(process.argv[4]);
+
+
+function string_N_times(string, n) {
+    if (n > 0)
+    return string.repeat(n);
+  else
+    return "";
+}
+
+string_N_times(process.argv[5], process.argv[6]);
+
